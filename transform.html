@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+
+    <style>
+        div{
+            height: 70px;
+            width:100px;
+            background-color: aquamarine;
+            transition: width 2s;
+        }
+
+        div:hover{
+            width: 150px;
+           
+        }
+
+         .div1{
+          height:70px;
+          width:100px;
+          background-color: black;
+          transition:width 2s,height 2s;
+        
+          }
+        div:hover{ 
+            width:300px; 
+             height: 300px; 
+        
+        } 
+         
+        .div2{
+            height:150px;
+            width:100px;
+            background-color: blue;
+            transition: transform 4s;
+        }
+        div:hover{
+            transform: rotate(360deg);
+        }
+
+        .div3{
+             width:100px; 
+             height: 100px;
+             transition-timing-function: ease;  
+            background-color: greenyellow;
+             transform: width 2s; 
+        }
+
+        div:hover{
+            width:350px;
+        }
+        .div4{
+            width:100px;
+            height: 100px;
+            transition-timing-function: ease-in;
+            background-color: palevioletred;
+            transition: width 3s;
+        }
+        div:hover{
+            width:300px;
+        }
+
+        .div5{
+            transition-timing-function: ease-out;
+            background-color: burlywood;
+            height: 100px;
+            width:100px;
+            transition:width 2s;
+        }
+        div:hover{
+            width:370px;
+            
+        }
+        .div6{
+            height: 100px;
+            width:100px;
+            transition-timing-function: ease-in-out;
+            background-color: darkturquoise;
+            transition: width 2s;
+        }
+        div:hover{
+            width:300px;
+        }
+    </style>
+
+    <body>
+          <div></div><br>
+            <div class="div1"></div><br>
+            <div class="div2"></div><br>
+            <div class="div3"></div><br>
+            <div class="div4"></div><br>
+            <div class="div5"></div><br>
+            <div class="div6"></div>
+
+        
+    </body>
+</html>

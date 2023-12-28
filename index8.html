@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Animation</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            /* transition: width 2s;  */
+            /* transition-delay: 3s; */
+            animation-duration: 3s;
+            animation-name: animationName;
+            /* animation-direction: reverse; */
+            animation-direction: alternate-reverse;
+            /* animation-direction:inherit; */
+            position: relative;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        @keyframes animationName {
+            0% {
+                background-color: brown;
+                left: 0px;
+                top: 0px;
+            }
+
+            100% {
+                background-color: aquamarine;
+                left: 500px;
+                top: 300px;
+            }
+
+            25% {
+                background-color: purple;
+                left: 500px;
+                top: 0px;
+            }
+
+            75% {
+                background-color: gray;
+                left: 500px;
+                top: 300px;
+            }
+
+            100% {
+                background-color: coral;
+                left: 500px;
+                top: 300px;
+            }
+            80%{
+                background-color: blue;
+                left:0px;
+                top:300px;
+            }
+
+
+        }
+
+         div:hover{
+                width:250px;
+            }  
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>
